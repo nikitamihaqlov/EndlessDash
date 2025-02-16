@@ -4,6 +4,13 @@ public class RoadSection : MonoBehaviour
 {
     private RoadSectionMovement m_RoadSectionMovement;
     [SerializeField] private GameManager m_GameManager;
+    private Road m_Road;
+
+    public Road Road
+    {
+        get => m_Road;
+        set => m_Road = value;
+    }
 
     private void Start()
     {
@@ -13,6 +20,11 @@ public class RoadSection : MonoBehaviour
     private void Update()
     {
         transform.position = m_RoadSectionMovement.UpdatePosition(transform.position, m_GameManager.Speed);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        Road.Return(transform);
     }
 }
 
