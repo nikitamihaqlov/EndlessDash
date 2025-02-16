@@ -5,9 +5,11 @@ using UnityEngine;
 public class Road : MonoBehaviour
 {
     private List<Transform> m_RoadSections;
+    private RoadColor m_RoadColor;
 
     private void Start()
     {
+        m_RoadColor = new RoadColor();
         Setup();
     }
 
@@ -15,6 +17,7 @@ public class Road : MonoBehaviour
     {
         m_RoadSections.Remove(roadSection);
         roadSection.position = GetReturnPosition(roadSection);
+        m_RoadColor.SetColor(roadSection.GetComponent<MeshRenderer>());
         m_RoadSections.Add(roadSection);
     }
 
@@ -31,7 +34,26 @@ public class Road : MonoBehaviour
         foreach (Transform roadSection in transform)
         {
             roadSection.GetComponent<RoadSection>().Road = this;
+            m_RoadColor.SetColor(roadSection.GetComponent<MeshRenderer>());
             m_RoadSections.Add(roadSection);
         }
+    }
+}
+
+public class RoadColor
+{
+    private const float k_Hue = 0f;
+    private const float k_Saturation = 0f;
+    private const float k_MinValue = 0.25f;
+    private const float k_MaxValue = 0.75f;
+
+    private float m_Value = k_MinValue;
+    private float m_ValueStep = 0.01f;
+
+    public void SetColor(MeshRenderer meshRenderer)
+    {
+        meshRenderer.material.color = Color.HSVToRGB(k_Hue, k_Saturation, m_Value);
+        m_Value = Mathf.Clamp(m_Value + m_ValueStep, k_MinValue, k_MaxValue);
+        m_ValueStep = m_Value <= k_MinValue || m_Value >= k_MaxValue ? -m_ValueStep : m_ValueStep;
     }
 }
