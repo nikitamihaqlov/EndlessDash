@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 96258020}
   - component: {fileID: 96258019}
   - component: {fileID: 96258018}
+  - component: {fileID: 96258021}
   m_Layer: 0
   m_Name: Road Section (23)
   m_TagString: Untagged
@@ -227,6 +228,63 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 96258016}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &96258021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 96258016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0400ae7790ddfe64987296a3daf4846d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_GameManager: {fileID: 120781079}
+--- !u!1 &120781078
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 120781080}
+  - component: {fileID: 120781079}
+  m_Layer: 0
+  m_Name: Game Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &120781079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 120781078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5afaa467d89a0f64a9e1671dc632dc4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &120781080
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 120781078}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &125697489
 GameObject:
   m_ObjectHideFlags: 0
@@ -239,6 +297,7 @@ GameObject:
   - component: {fileID: 125697493}
   - component: {fileID: 125697492}
   - component: {fileID: 125697491}
+  - component: {fileID: 125697494}
   m_Layer: 0
   m_Name: Road Section (18)
   m_TagString: Untagged
@@ -335,6 +394,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 125697489}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &125697494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 125697489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0400ae7790ddfe64987296a3daf4846d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_GameManager: {fileID: 120781079}
 --- !u!1 &180752366
 GameObject:
   m_ObjectHideFlags: 0
@@ -468,6 +540,7 @@ GameObject:
   - component: {fileID: 278972099}
   - component: {fileID: 278972098}
   - component: {fileID: 278972097}
+  - component: {fileID: 278972100}
   m_Layer: 0
   m_Name: Road Section (9)
   m_TagString: Untagged
@@ -564,6 +637,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 278972095}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &278972100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 278972095}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0400ae7790ddfe64987296a3daf4846d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_GameManager: {fileID: 120781079}
 --- !u!1 &298237865
 GameObject:
   m_ObjectHideFlags: 0
@@ -576,6 +662,7 @@ GameObject:
   - component: {fileID: 298237869}
   - component: {fileID: 298237868}
   - component: {fileID: 298237867}
+  - component: {fileID: 298237870}
   m_Layer: 0
   m_Name: Road Section (21)
   m_TagString: Untagged
@@ -672,6 +759,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 298237865}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &298237870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 298237865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0400ae7790ddfe64987296a3daf4846d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_GameManager: {fileID: 120781079}
 --- !u!1 &370417517
 GameObject:
   m_ObjectHideFlags: 0
@@ -684,6 +784,7 @@ GameObject:
   - component: {fileID: 370417521}
   - component: {fileID: 370417520}
   - component: {fileID: 370417519}
+  - component: {fileID: 370417522}
   m_Layer: 0
   m_Name: Road Section (3)
   m_TagString: Untagged
@@ -780,6 +881,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 370417517}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &370417522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 370417517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0400ae7790ddfe64987296a3daf4846d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_GameManager: {fileID: 120781079}
 --- !u!1 &384946008
 GameObject:
   m_ObjectHideFlags: 0
@@ -792,6 +906,7 @@ GameObject:
   - component: {fileID: 384946012}
   - component: {fileID: 384946011}
   - component: {fileID: 384946010}
+  - component: {fileID: 384946013}
   m_Layer: 0
   m_Name: Road Section (22)
   m_TagString: Untagged
@@ -888,6 +1003,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 384946008}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &384946013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 384946008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0400ae7790ddfe64987296a3daf4846d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_GameManager: {fileID: 120781079}
 --- !u!1 &413058422
 GameObject:
   m_ObjectHideFlags: 0
@@ -900,6 +1028,7 @@ GameObject:
   - component: {fileID: 413058426}
   - component: {fileID: 413058425}
   - component: {fileID: 413058424}
+  - component: {fileID: 413058427}
   m_Layer: 0
   m_Name: Road Section (13)
   m_TagString: Untagged
@@ -996,6 +1125,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 413058422}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &413058427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 413058422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0400ae7790ddfe64987296a3daf4846d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_GameManager: {fileID: 120781079}
 --- !u!1 &488340968
 GameObject:
   m_ObjectHideFlags: 0
@@ -1008,6 +1150,7 @@ GameObject:
   - component: {fileID: 488340972}
   - component: {fileID: 488340971}
   - component: {fileID: 488340970}
+  - component: {fileID: 488340973}
   m_Layer: 0
   m_Name: Road Section (1)
   m_TagString: Untagged
@@ -1104,6 +1247,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 488340968}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &488340973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 488340968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0400ae7790ddfe64987296a3daf4846d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_GameManager: {fileID: 120781079}
 --- !u!1 &509815405
 GameObject:
   m_ObjectHideFlags: 0
@@ -1116,6 +1272,7 @@ GameObject:
   - component: {fileID: 509815409}
   - component: {fileID: 509815408}
   - component: {fileID: 509815407}
+  - component: {fileID: 509815410}
   m_Layer: 0
   m_Name: Road Section (25)
   m_TagString: Untagged
@@ -1212,6 +1369,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 509815405}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &509815410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 509815405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0400ae7790ddfe64987296a3daf4846d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_GameManager: {fileID: 120781079}
 --- !u!1 &527333995
 GameObject:
   m_ObjectHideFlags: 0
@@ -1224,6 +1394,7 @@ GameObject:
   - component: {fileID: 527333999}
   - component: {fileID: 527333998}
   - component: {fileID: 527333997}
+  - component: {fileID: 527334000}
   m_Layer: 0
   m_Name: Road Section (19)
   m_TagString: Untagged
@@ -1320,6 +1491,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 527333995}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &527334000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 527333995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0400ae7790ddfe64987296a3daf4846d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_GameManager: {fileID: 120781079}
 --- !u!1 &587012848
 GameObject:
   m_ObjectHideFlags: 0
@@ -1332,6 +1516,7 @@ GameObject:
   - component: {fileID: 587012852}
   - component: {fileID: 587012851}
   - component: {fileID: 587012850}
+  - component: {fileID: 587012853}
   m_Layer: 0
   m_Name: Road Section (2)
   m_TagString: Untagged
@@ -1428,6 +1613,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 587012848}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &587012853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 587012848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0400ae7790ddfe64987296a3daf4846d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_GameManager: {fileID: 120781079}
 --- !u!1 &593633632
 GameObject:
   m_ObjectHideFlags: 0
@@ -1440,6 +1638,7 @@ GameObject:
   - component: {fileID: 593633636}
   - component: {fileID: 593633635}
   - component: {fileID: 593633634}
+  - component: {fileID: 593633637}
   m_Layer: 0
   m_Name: Road Section (17)
   m_TagString: Untagged
@@ -1536,6 +1735,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 593633632}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &593633637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 593633632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0400ae7790ddfe64987296a3daf4846d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_GameManager: {fileID: 120781079}
 --- !u!1 &709204095
 GameObject:
   m_ObjectHideFlags: 0
@@ -1548,6 +1760,7 @@ GameObject:
   - component: {fileID: 709204099}
   - component: {fileID: 709204098}
   - component: {fileID: 709204097}
+  - component: {fileID: 709204100}
   m_Layer: 0
   m_Name: Road Section (14)
   m_TagString: Untagged
@@ -1644,6 +1857,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 709204095}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &709204100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 709204095}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0400ae7790ddfe64987296a3daf4846d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_GameManager: {fileID: 120781079}
 --- !u!1 &779086856
 GameObject:
   m_ObjectHideFlags: 0
@@ -1656,6 +1882,7 @@ GameObject:
   - component: {fileID: 779086860}
   - component: {fileID: 779086859}
   - component: {fileID: 779086858}
+  - component: {fileID: 779086861}
   m_Layer: 0
   m_Name: Road Section (16)
   m_TagString: Untagged
@@ -1752,6 +1979,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 779086856}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &779086861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 779086856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0400ae7790ddfe64987296a3daf4846d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_GameManager: {fileID: 120781079}
 --- !u!1 &831391932
 GameObject:
   m_ObjectHideFlags: 0
@@ -1764,6 +2004,7 @@ GameObject:
   - component: {fileID: 831391936}
   - component: {fileID: 831391935}
   - component: {fileID: 831391934}
+  - component: {fileID: 831391937}
   m_Layer: 0
   m_Name: Road Section (4)
   m_TagString: Untagged
@@ -1860,6 +2101,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 831391932}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &831391937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 831391932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0400ae7790ddfe64987296a3daf4846d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_GameManager: {fileID: 120781079}
 --- !u!1 &959087077
 GameObject:
   m_ObjectHideFlags: 0
@@ -1872,6 +2126,7 @@ GameObject:
   - component: {fileID: 959087081}
   - component: {fileID: 959087080}
   - component: {fileID: 959087079}
+  - component: {fileID: 959087082}
   m_Layer: 0
   m_Name: Road Section (24)
   m_TagString: Untagged
@@ -1968,6 +2223,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 959087077}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &959087082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 959087077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0400ae7790ddfe64987296a3daf4846d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_GameManager: {fileID: 120781079}
 --- !u!1 &1119774348
 GameObject:
   m_ObjectHideFlags: 0
@@ -1980,6 +2248,7 @@ GameObject:
   - component: {fileID: 1119774352}
   - component: {fileID: 1119774351}
   - component: {fileID: 1119774350}
+  - component: {fileID: 1119774353}
   m_Layer: 0
   m_Name: Road Section (15)
   m_TagString: Untagged
@@ -2076,6 +2345,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1119774348}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1119774353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1119774348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0400ae7790ddfe64987296a3daf4846d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_GameManager: {fileID: 120781079}
 --- !u!1 &1228957121
 GameObject:
   m_ObjectHideFlags: 0
@@ -2088,6 +2370,7 @@ GameObject:
   - component: {fileID: 1228957125}
   - component: {fileID: 1228957124}
   - component: {fileID: 1228957123}
+  - component: {fileID: 1228957126}
   m_Layer: 0
   m_Name: Road Section (12)
   m_TagString: Untagged
@@ -2184,6 +2467,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1228957121}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1228957126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1228957121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0400ae7790ddfe64987296a3daf4846d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_GameManager: {fileID: 120781079}
 --- !u!1 &1296978685
 GameObject:
   m_ObjectHideFlags: 0
@@ -2196,6 +2492,7 @@ GameObject:
   - component: {fileID: 1296978689}
   - component: {fileID: 1296978688}
   - component: {fileID: 1296978687}
+  - component: {fileID: 1296978690}
   m_Layer: 0
   m_Name: Road Section (5)
   m_TagString: Untagged
@@ -2292,6 +2589,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1296978685}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1296978690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1296978685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0400ae7790ddfe64987296a3daf4846d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_GameManager: {fileID: 120781079}
 --- !u!1 &1470664393
 GameObject:
   m_ObjectHideFlags: 0
@@ -2360,6 +2670,7 @@ GameObject:
   - component: {fileID: 1510266635}
   - component: {fileID: 1510266634}
   - component: {fileID: 1510266633}
+  - component: {fileID: 1510266636}
   m_Layer: 0
   m_Name: Road Section (8)
   m_TagString: Untagged
@@ -2456,6 +2767,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1510266631}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1510266636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1510266631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0400ae7790ddfe64987296a3daf4846d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_GameManager: {fileID: 120781079}
 --- !u!1 &1531830805
 GameObject:
   m_ObjectHideFlags: 0
@@ -2468,6 +2792,7 @@ GameObject:
   - component: {fileID: 1531830809}
   - component: {fileID: 1531830808}
   - component: {fileID: 1531830807}
+  - component: {fileID: 1531830810}
   m_Layer: 0
   m_Name: Road Section (6)
   m_TagString: Untagged
@@ -2564,6 +2889,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1531830805}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1531830810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1531830805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0400ae7790ddfe64987296a3daf4846d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_GameManager: {fileID: 120781079}
 --- !u!1 &1845313457
 GameObject:
   m_ObjectHideFlags: 0
@@ -2713,6 +3051,7 @@ GameObject:
   - component: {fileID: 2029776999}
   - component: {fileID: 2029776998}
   - component: {fileID: 2029776997}
+  - component: {fileID: 2029777000}
   m_Layer: 0
   m_Name: Road Section (11)
   m_TagString: Untagged
@@ -2809,6 +3148,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2029776995}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2029777000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2029776995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0400ae7790ddfe64987296a3daf4846d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_GameManager: {fileID: 120781079}
 --- !u!1 &2089693661
 GameObject:
   m_ObjectHideFlags: 0
@@ -2821,6 +3173,7 @@ GameObject:
   - component: {fileID: 2089693665}
   - component: {fileID: 2089693664}
   - component: {fileID: 2089693663}
+  - component: {fileID: 2089693666}
   m_Layer: 0
   m_Name: Road Section (20)
   m_TagString: Untagged
@@ -2917,6 +3270,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2089693661}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2089693666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2089693661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0400ae7790ddfe64987296a3daf4846d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_GameManager: {fileID: 120781079}
 --- !u!1 &2103135436
 GameObject:
   m_ObjectHideFlags: 0
@@ -2929,6 +3295,7 @@ GameObject:
   - component: {fileID: 2103135440}
   - component: {fileID: 2103135439}
   - component: {fileID: 2103135438}
+  - component: {fileID: 2103135441}
   m_Layer: 0
   m_Name: Road Section (7)
   m_TagString: Untagged
@@ -3025,6 +3392,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2103135436}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2103135441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2103135436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0400ae7790ddfe64987296a3daf4846d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_GameManager: {fileID: 120781079}
 --- !u!1 &2130381155
 GameObject:
   m_ObjectHideFlags: 0
@@ -3037,6 +3417,7 @@ GameObject:
   - component: {fileID: 2130381159}
   - component: {fileID: 2130381158}
   - component: {fileID: 2130381157}
+  - component: {fileID: 2130381160}
   m_Layer: 0
   m_Name: Road Section (10)
   m_TagString: Untagged
@@ -3133,6 +3514,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2130381155}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2130381160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2130381155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0400ae7790ddfe64987296a3daf4846d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_GameManager: {fileID: 120781079}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -3140,3 +3534,4 @@ SceneRoots:
   - {fileID: 1845313460}
   - {fileID: 180752368}
   - {fileID: 1470664394}
+  - {fileID: 120781080}
