@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8118399435269903519}
+  - component: {fileID: 4092441089017500108}
   m_Layer: 0
   m_Name: High Obstacle
   m_TagString: Untagged
@@ -32,6 +33,19 @@ Transform:
   - {fileID: 3794658378458101206}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4092441089017500108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5906625826485306402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92bae3839aef6134c88f183fee59ffb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_GameManager: {fileID: 11400000, guid: 6be99feef8d19ab498918f98355c8fba, type: 2}
 --- !u!1 &7418749791610029641
 GameObject:
   m_ObjectHideFlags: 0
